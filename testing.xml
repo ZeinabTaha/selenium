@@ -1,0 +1,9 @@
+<suite  name="Login scenarios" >
+    <test  name="LoginTests" >
+        <parameter name="browser" value="Chrome"/>
+           <classes>
+               <class name="testPackage.ValidLoginTest"/>
+               <class name="testPackage.InvalidLoginTest"/>
+           </classes>
+    </test>
+</suite>
